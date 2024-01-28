@@ -22,7 +22,7 @@ public class LessonTracker {
 	private String weekNumber;
 	
 	@Column(name = "review_status")
-	private boolean reviewStatus;
+	private boolean needsReview;
 	
 	private String project;
 	
@@ -57,12 +57,12 @@ public class LessonTracker {
 		this.weekNumber = weekNumber;
 	}
 
-	public boolean isReviewStatus() {
-		return reviewStatus;
+	public boolean isNeedsReview() {
+		return needsReview;
 	}
 
-	public void setReviewStatus(boolean reviewStatus) {
-		this.reviewStatus = reviewStatus;
+	public void setNeedsReview(boolean needsReview) {
+		this.needsReview = needsReview;
 	}
 
 	public String getProject() {
@@ -100,7 +100,7 @@ public class LessonTracker {
 
 	@Override
 	public String toString() {
-		return "LessonTracker [id=" + id + ", topic=" + topic + ", weekNumber=" + weekNumber + ", reviewStatus="
-				+ reviewStatus + ", project=" + project + ", url=" + url + "]";
+		return "LessonTracker [id=" + id + ", topic=" + topic + ", weekNumber=" + weekNumber + ", needsReview="
+				+ needsReview + ", project=" + project + ", url=" + url + "]";
 	}
 }

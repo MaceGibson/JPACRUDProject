@@ -45,10 +45,10 @@ class LessonTrackerTest {
 	@Test
 	void testFieldMappings() {
 		assertNotNull(lessonTracker);
-
+		assertEquals(1, lessonTracker.getId());
 		assertEquals("Java Fundamentals of Programming", lessonTracker.getTopic());
 		assertEquals("Week 1", lessonTracker.getWeekNumber());
-		assertTrue(lessonTracker.isReviewStatus());
+		assertTrue(lessonTracker.isNeedsReview());
 		assertEquals("Make Change", lessonTracker.getProject());
 		assertEquals("https://github.com/SkillDistillery/SD42/blob/main/jfop/README.md", lessonTracker.getUrl());
 	}

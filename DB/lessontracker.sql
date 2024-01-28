@@ -51,7 +51,20 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 START TRANSACTION;
 USE `Lesson_Tracker`;
 INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (1, 'Java Fundamentals of Programming', 'Week 1', 1, 'Make Change', 'https://github.com/SkillDistillery/SD42/blob/main/jfop/README.md');
-INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (2, 'Object-Oriented Programming', 'Week 2', 1, 'Food Trucks', 'https://github.com/SkillDistillery/SD42/blob/main/java1/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (2, 'Object-Oriented Programming in Java', 'Week 2', 1, 'Food Trucks', 'https://github.com/SkillDistillery/SD42/blob/main/java1/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (3, 'Java Libraries', 'Week 3', 1, 'Jets', 'https://github.com/SkillDistillery/SD42/blob/main/java2/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (4, 'Java Libraries', 'Week 4', 1, 'Blackjack', 'https://github.com/SkillDistillery/SD42/blob/main/java2/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (5, 'Java Libraries', 'Week 5', 1, 'No project this week.', 'https://github.com/SkillDistillery/SD42/blob/main/java2/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (6, 'OCP Exam Preparation', 'Week 6', 1, 'No project this week.', 'https://github.com/SkillDistillery/SD42/blob/main/ocpPrep/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (7, 'Web Basics', 'Week 7', 1, 'Film Query Application', 'https://github.com/SkillDistillery/SD42/blob/main/web101/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (8, 'Intro to SQL and JDBC', 'Week 7', 1, 'Film Query Application', 'https://github.com/SkillDistillery/SD42/blob/main/sql1/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (9, 'Dynamic Web Applications', 'Week 8', 1, 'Spring MVC Film C.R.U.D.', 'https://github.com/SkillDistillery/SD42/blob/main/javaWeb/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (10, 'Introduction to Spring MVC', 'Week 8', 1, 'Spring MVC Film C.R.U.D.', 'https://github.com/SkillDistillery/SD42/blob/main/SpringMVC/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (11, 'SQL and JDBC Application Development', 'Week 8', 1, 'Spring MVC Film C.R.U.D.', 'https://github.com/SkillDistillery/SD42/blob/main/sql2/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (12, 'Introduction to Spring MVC', 'Week 9', 0, 'JPA CRUD Homework', 'https://github.com/SkillDistillery/SD42/blob/main/SpringMVC/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (13, 'JPA', 'Week 9', 1, 'JPA CRUD Homework', 'https://github.com/SkillDistillery/SD42/blob/main/jpa/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (14, 'SQL and JDBC Application Development', 'Week 9', 0, 'JPA CRUD Homework', 'https://github.com/SkillDistillery/SD42/blob/main/sql2/README.md');
+INSERT INTO `lesson_tracker` (`id`, `topic`, `week_number`, `review_status`, `project`, `url`) VALUES (15, 'JPA', 'Week 10', 0, 'Full Stack Group MVC Project', 'https://github.com/SkillDistillery/SD42/blob/main/jpa/README.md');
 
 COMMIT;
 
