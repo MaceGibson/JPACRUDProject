@@ -30,7 +30,7 @@
   	<div class="btn-group mt-3" role="group">
    		<a href="<c:url value='/updateLessonForm.do/'/>${lesson.id}" class="btn btn-warning">Update</a>
     	<a href="<c:url value='/deleteLesson.do/'/>${lesson.id}" class="btn btn-danger">Delete</a>
-    	<a href="<c:url value='/'/>" class="btn btn-primary">Home</a>
+    	<a href="<c:url value='/home.do'/>" class="btn btn-primary">Home</a>
 	</div>
 
 </div>

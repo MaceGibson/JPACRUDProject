@@ -30,7 +30,7 @@
     </div>
 
     <div class="btn-group mt-3" role="group">
-        <a href="/" class="btn btn-primary">Home</a>
+        <a href="/home.do" class="btn btn-primary">Home</a>
         <a href="createLessonForm" class="btn btn-success">Create Lesson</a>
     </div>
 </div>

@@ -48,7 +48,7 @@
         </table>
     </c:if>
 
-    <a href="/" class="btn btn-primary">Home</a>
+    <a href="home.do" class="btn btn-primary">Home</a>
 </div>
 
 <!-- Bootstrap JS and Popper.js -->
