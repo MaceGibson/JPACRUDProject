@@ -56,4 +56,6 @@ This project involved the integration of Spring Boot, Hibernate, and a web-based
    - Creating dynamic web pages using Expression language.
    - Incorporating Bootstrap for a responsive and visually appealing UI.
 
+## AWS Deployment
 
+http://3.13.43.122:8080/BootLessonTracker/
