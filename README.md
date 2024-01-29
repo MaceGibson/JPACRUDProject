@@ -38,7 +38,7 @@ The Lesson Tracker Project is a Spring Boot web application for tracking lessons
 - Hibernate/JPA for database interaction
 - Test Driven Development
 - Bootstrap for front-end styling
-- HTML, CSS, JavaScript
+- HTML
 
 ## Lessons Learned
 
