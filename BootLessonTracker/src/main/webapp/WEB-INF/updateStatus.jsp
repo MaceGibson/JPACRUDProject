@@ -26,7 +26,7 @@
         <form action="updateLessonForm.do/${lesson.id}" method="GET">
             <input type="submit" class="btn btn-primary" value="Try Again">
         </form>
-        <form action="home.do" method="GET">
+        <form action="/home.do" method="GET">
             <input type="submit" class="btn btn-success" value="Home">
         </form>
     </div>

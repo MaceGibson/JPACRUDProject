@@ -20,7 +20,7 @@ public class LessonTrackerController {
     @Autowired
     private LessonTrackerDAO ltDAO;
 
-    @GetMapping("home.do")
+    @GetMapping({"/home.do", "home.do"})
     public String index() {
         return "index";
     }

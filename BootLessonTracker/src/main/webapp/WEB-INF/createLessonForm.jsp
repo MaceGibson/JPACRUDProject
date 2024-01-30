@@ -39,7 +39,7 @@
         <button type="submit" class="btn btn-primary">Create Lesson</button>
     </form>
 
-    <a href="home.do" class="btn btn-secondary mt-3">Home</a>
+    <a href="/home.do" class="btn btn-secondary mt-3">Home</a>
 </div>
 
 <!-- Bootstrap JS and Popper.js -->
